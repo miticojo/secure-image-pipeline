@@ -70,8 +70,7 @@ baseimgfct_project_setup (){
   exit
   fi
 
-  export BASEIMGFCT_REGION=northamerica-northeast1
-
+  
   echo "Setting up project for Base Image Factory..." 
   get_project_number
   gcloud config set project ${BASEIMGFCT_PROJECT};
