@@ -70,7 +70,7 @@ The first step in the setup is a prompt asking for GitHub credentials to create 
 
 For Terraform to create the repositories using the supplied credentials, a Personal Access Token in GitHub must be configured with *Full control of private repositories* permission.
 
-To Create a Personal Access Token, go to ***Settings > Developer Settings > Personal Access Tokens.***
+To Create a Personal Access Token, go to ***Settings > Developer Settings > Personal Access Tokens*** and assign full permissions on `admin:org` and `repo`. 
 
 Create an environment variable on the host machine using the following command if you're using macOS or Linux.
 
