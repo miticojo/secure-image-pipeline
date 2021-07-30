@@ -48,9 +48,9 @@ The workflow design is all source code will be in GitHub. When users want to mak
 
       TF_VERSION="0.14.10"
 
-      wget https://releases.hashicorp.com/terraform/${TF_VERSION}/terraform_$ {TF_VERSION}_linux_amd64.zip && \
+      wget https://releases.hashicorp.com/terraform/${TF_VERSION}/terraform_${TF_VERSION}_linux_amd64.zip && \
       unzip terraform_${TF_VERSION}_linux_amd64.zip && \
-      mv terraform /usr/local/bin && \
+      sudo mv terraform /usr/local/bin && \
       rm terraform_${TF_VERSION}_linux_amd64.zip
 
 ### GCP Credentials
